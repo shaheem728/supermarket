@@ -12,7 +12,7 @@ function App() {
   return (
    <>
    <NavBar/>
-   <div className="px-4 md:px-16 bg-[#0000000e]">
+   <div className="px-4 py-6 md:px-16 bg-[#0000000e]">
    <Home/>
    <Recommended/>
    <BrandsSection/>

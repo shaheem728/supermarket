@@ -5,7 +5,7 @@ const CategorySection = ({ title, items }) => {
   return (
     <div className="mb-10">
       <h2 className="text-lg font-semibold mb-4">{title}</h2>
-      <div className="flex flex-wrap  gap-2">
+      <div className="flex flex-wrap    gap-2">
         {items.map((item, index) => (
           <CategoryCard key={index} img={item.img} title={item.title} />
         ))}

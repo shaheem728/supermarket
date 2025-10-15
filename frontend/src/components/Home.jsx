@@ -3,11 +3,11 @@ import { assets,categories,offers,features } from "../assets/assets";
 
 const Home = () => {
   return (
-    <div className="w-full  p-6 space-y-10">
+    <div className="w-full space-y-10 ">
       {/* Category Slider */}
-      <div className="flex flex-wrap md:flex-nowrap gap-1 md:gap-3">
+      <div className="flex flex-wrap md:flex-nowrap  p-2  items-center justify-center gap-3">
         {categories.map((cat, idx) => (
-          <div key={idx} className="w-32 bg-white rounded-xl shadow p-2 flex flex-col items-center relative">
+          <div key={idx} className="w-32 h-32  bg-white rounded-xl shadow p-2 flex flex-col items-center relative">
             <p className="text-sm font-medium  text-center mt-1">{cat.title}</p>
             <img src={cat.img} alt={cat.title} className="h-16 object-contain" />
             <img src={assets.Ellipse} alt="Ellipse" className="absolute bottom-0 z-10" />
@@ -33,9 +33,9 @@ const Home = () => {
 
 
       {/* Offer Cards */}
-      <div className="grid grid-cols-2 md:grid-cols-5 gap-3">
+      <div className="flex md:flex-nowrap flex-wrap gap-3">
         {offers.map((offer, idx) => (
-          <div key={idx} className={` ${offer.bg} rounded-xl  flex justify-between items-center`}>
+          <div key={idx} className={` ${offer.bg} md:w-auto w-56  rounded-xl  flex justify-between items-center`}>
             <div className="p-4 w-3/5 flex-1">
               <h3 className={`font-bold ${offer.clr} `}>{offer.title}</h3>
               <p className="text-sm text-gray-600">{offer.sub}</p>

@@ -15,7 +15,7 @@ const NavBar = () => {
       <div className="flex w-[50%] justify-between gap-8 ">
       <div className="flex items-center w-full gap-4">
         {/* Location */}
-        <div className="flex items-center gap-1">
+        <div className="hidden md:flex items-center gap-1">
           <img src={assets.Location} alt="Location" className="w-4 h-4" />
           <span className="font-medium">Location</span>
         </div>
