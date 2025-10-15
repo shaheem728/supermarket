@@ -3,7 +3,7 @@ import { assets,categories,offers,features } from "../assets/assets";
 
 const Home = () => {
   return (
-    <div className="w-full space-y-10 ">
+    <div className="w-full space-y-10 mb-2 ">
       {/* Category Slider */}
       <div className="flex flex-wrap md:flex-nowrap  p-2  items-center justify-center gap-3">
         {categories.map((cat, idx) => (
