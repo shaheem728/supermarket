@@ -1,5 +1,6 @@
 import AI from './AI.png'
 import Amul from './Amul.png'
+import Arrow from './Arrow.png'
 import assistant_1 from './assistant_1.png'
 import assistant_2 from './assistant_2.png'
 import Broccoli from './Broccoli.png'
@@ -56,7 +57,7 @@ import TP_10 from './TP_10.png'
 import TwitterIcon from './X.png'
 
 export const assets = {
-  AI, Cart, Chocolate, 
+  AI, Arrow, Cart, Chocolate, 
   Ellipse, FacebookIcon, Footer_Head, Header, HomeBanner, InstagramIcon, LinkedinIcon,
   Location, Nestle, Offer,OfferTag, Profile, TwitterIcon
 }

@@ -1,6 +1,5 @@
 import React from 'react'
-import {  products ,FlashSale} from '../assets/assets'
-import { MoveRight} from 'lucide-react';
+import {  products ,FlashSale, assets} from '../assets/assets'
 import ProductCard from '../card/ProductCard';
 
 const Recommended = () => {
@@ -8,10 +7,10 @@ const Recommended = () => {
     <div className="container  px-6 ">
       {/* Recommended Section */}
       <section className="mb-8">
-        <div className="flex items-center justify-between mb-3">
+        <div className="flex items-center justify-between mb-5">
           <h2 className="text-lg font-semibold">Recommended for you</h2>
-          <button className="text-green-600 flex items-center gap-1 text-sm font-medium">
-            See all <span className='bg-[#27AE60] p-1 rounded-full'><MoveRight className="w-5  text-white" /></span> 
+          <button className="text-green-600 flex items-center gap-2 text-sm font-medium">
+            See all <span className='bg-[#27AE60] p-2 rounded-full'><img src={assets.Arrow} alt='arrow' className='h-4 w-4' /></span> 
           </button>
         </div>
 

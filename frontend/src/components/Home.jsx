@@ -47,7 +47,7 @@ const Home = () => {
       </div>
 
       {/* AI Assistant Section */}
-      <div className="w-full md:w-[55%] bg-yellow-100 rounded-2xl p-4">
+      <div className="w-full md:w-[55%] bg-orange-100 rounded-2xl p-4">
         <div className="flex md:flex-row flex-col justify-between space-x-3 ">
           <div className="w-2/5 mb-1">
             <h2 className="text-xl font-bold mt-3">Your personal grocery assistant</h2>
@@ -62,7 +62,7 @@ const Home = () => {
               <div key={idx} className="bg-white p-1 rounded-lg  flex flex-col items-center  relative">
                 <p className="text-sm font-medium  ">{f.title}</p>
                 <img src={f.img} alt={f.title} className="h-20" />
-                <button className="absolute bottom-1 mt-1 w-10/12 py-1 rounded-lg text-sm font-medium bg-orange-200 text-orange-500 ">{f.btn}</button>
+                <button className="absolute bottom-1 mt-1 w-10/12 py-1 rounded-lg text-sm font-medium bg-orange-100 text-orange-500 ">{f.btn}</button>
               </div>
             ))}
           </div>
